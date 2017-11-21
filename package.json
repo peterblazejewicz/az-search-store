@@ -13,13 +13,13 @@
   ],
   "typings": "dist/AzSearchStore.d.ts",
   "scripts": {
+    "build": "tsc",
+    "dev": "webpack -d",
     "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
     "pretest": "npm run lint",
-    "test": "jest",
-    "start_server": "http-server",
-    "tscompile": "tsc",
-    "devpack": "webpack -d",
-    "prodpack": "webpack -p"
+    "webpack:prod": "webpack -p",
+    "start": "http-server",
+    "test": "jest"
   },
   "author": "Evan Boyle (https://github.com/EvanBoyle)",
   "license": "MIT",
