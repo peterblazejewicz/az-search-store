@@ -1,14 +1,14 @@
-import * as asyncActions from './actions/asyncActions';
-import * as configActions from './actions/configActions';
-import * as facetsActions from './actions/facetsActions';
-import * as inputActions from './actions/inputActions';
-import * as promise from 'es6-promise';
-import * as redux from 'redux';
-import * as resultsActions from './actions/resultsActions';
-import * as searchParameterActions from './actions/searchParametersActions';
-import * as suggestionsActions from './actions/suggestionsActions';
-import * as suggestionsParameterActions from './actions/suggestionsParametersActions';
+import asyncActions from './actions/asyncActions';
+import configActions from './actions/configActions';
+import facetsActions from './actions/facetsActions';
+import inputActions from './actions/inputActions';
+import promise from 'es6-promise';
+import redux from 'redux';
 import ReduxThunk from 'redux-thunk';
+import resultsActions from './actions/resultsActions';
+import searchParameterActions from './actions/searchParametersActions';
+import suggestionsActions from './actions/suggestionsActions';
+import suggestionsParameterActions from './actions/suggestionsParametersActions';
 import { reducers } from './reducers/reducers';
 import { Store } from './store';
 

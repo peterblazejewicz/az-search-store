@@ -1,5 +1,5 @@
-import * as searchParameters from '../searchParameters';
-import * as searchParametersActions from '../../actions/searchParametersActions';
+import searchParameters from '../searchParameters';
+import searchParametersActions from '../../actions/searchParametersActions';
 import { Store } from '../../store';
 
 const initialState = searchParameters.initialState;

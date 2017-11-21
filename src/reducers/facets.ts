@@ -1,4 +1,4 @@
-import * as objectAssign from 'object-assign';
+import objectAssign from 'object-assign';
 import { Store } from '../store';
 import { updateObject, updateObjectAtKey } from './reducerUtils';
 import {

@@ -1,5 +1,5 @@
-import * as suggestions from '../suggestions';
-import * as suggestionsActions from '../../actions/suggestionsActions';
+import suggestions from '../suggestions';
+import suggestionsActions from '../../actions/suggestionsActions';
 import { Store } from '../../store';
 
 const reducer = suggestions.suggestions;

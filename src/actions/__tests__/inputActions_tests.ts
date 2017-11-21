@@ -1,4 +1,4 @@
-import * as inputActions from '../inputActions';
+import inputActions from '../inputActions';
 import { Store } from '../../store';
 
 describe('actions/input', () => {

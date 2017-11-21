@@ -1,4 +1,4 @@
-import * as configActions from '../configActions';
+import configActions from '../configActions';
 import { Store } from '../../store';
 
 const config: Store.Config = {

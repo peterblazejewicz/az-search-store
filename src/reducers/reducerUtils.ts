@@ -1,4 +1,4 @@
-import * as objectAssign from 'object-assign';
+import objectAssign from 'object-assign';
 
 export function updateObject<T, U>(oldObject: T, newValues: U): T {
   return objectAssign({}, oldObject, newValues);

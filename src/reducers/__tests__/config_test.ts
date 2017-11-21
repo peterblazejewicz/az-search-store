@@ -1,5 +1,5 @@
-import * as config from '../config';
-import * as configActions from '../../actions/configActions';
+import config from '../config';
+import configActions from '../../actions/configActions';
 import { Store } from '../../store';
 
 const reducer = config.config;

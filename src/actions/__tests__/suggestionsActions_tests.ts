@@ -1,4 +1,4 @@
-import * as suggestionsActions from '../suggestionsActions';
+import suggestionsActions from '../suggestionsActions';
 
 const ts = Date.now();
 

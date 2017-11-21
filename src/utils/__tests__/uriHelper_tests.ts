@@ -1,8 +1,8 @@
-import * as input from '../../reducers/input';
-import * as searchParameters from '../../reducers/searchParameters';
-import * as suggestionsParameters from '../../reducers/suggestionsParameters';
-import * as URI from 'urijs';
-import * as uriHelper from '../uriHelper';
+import input from '../../reducers/input';
+import searchParameters from '../../reducers/searchParameters';
+import suggestionsParameters from '../../reducers/suggestionsParameters';
+import URI from 'urijs';
+import uriHelper from '../uriHelper';
 import { Store } from '../../store';
 
 const config: Store.Config = {

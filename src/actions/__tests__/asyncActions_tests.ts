@@ -1,9 +1,9 @@
-import * as actions from '../asyncActions';
-import * as input from '../../reducers/input';
-import * as nock from 'nock';
-import * as searchParameters from '../../reducers/searchParameters';
-import * as suggestionsParameters from '../../reducers/suggestionsParameters';
+import actions from '../asyncActions';
 import configureMockStore from 'redux-mock-store';
+import input from '../../reducers/input';
+import nock from 'nock';
+import searchParameters from '../../reducers/searchParameters';
+import suggestionsParameters from '../../reducers/suggestionsParameters';
 import thunk from 'redux-thunk';
 import { Store } from '../../store';
 import { updateObject } from '../../reducers/reducerUtils';

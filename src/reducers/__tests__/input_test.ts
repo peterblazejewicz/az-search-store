@@ -1,5 +1,5 @@
-import * as input from '../input';
-import * as inputActions from '../../actions/inputActions';
+import input from '../input';
+import inputActions from '../../actions/inputActions';
 
 const initialState = input.initialState;
 

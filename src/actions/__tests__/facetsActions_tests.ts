@@ -1,4 +1,4 @@
-import * as facetsActions from '../facetsActions';
+import facetsActions from '../facetsActions';
 
 const ts = Date.now();
 

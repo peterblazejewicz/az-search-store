@@ -1,5 +1,5 @@
-import * as facets from '../facets';
-import * as facetsAction from '../../actions/facetsActions';
+import facets from '../facets';
+import facetsAction from '../../actions/facetsActions';
 import { Store } from '../../store';
 
 const reducer = facets.facets;

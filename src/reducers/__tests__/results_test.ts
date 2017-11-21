@@ -1,5 +1,5 @@
-import * as results from '../results';
-import * as resultsActions from '../../actions/resultsActions';
+import results from '../results';
+import resultsActions from '../../actions/resultsActions';
 import { Store } from '../../store';
 
 const reducer = results.results;

@@ -1,5 +1,5 @@
-import * as suggestionsParameters from '../suggestionsParameters';
-import * as suggestionsParametersActions from '../../actions/suggestionsParametersActions';
+import suggestionsParameters from '../suggestionsParameters';
+import suggestionsParametersActions from '../../actions/suggestionsParametersActions';
 import { Store } from '../../store';
 
 const initialState = suggestionsParameters.initialState;

@@ -1,7 +1,7 @@
-import * as facetsActions from './facetsActions';
-import * as promise from 'es6-promise';
-import * as resultsActions from './resultsActions';
-import * as suggestionsActions from './suggestionsActions';
+import facetsActions from './facetsActions';
+import promise from 'es6-promise';
+import resultsActions from './resultsActions';
+import suggestionsActions from './suggestionsActions';
 import thunk, { ThunkAction } from 'redux-thunk';
 import { Store } from '../store';
 import 'isomorphic-fetch';

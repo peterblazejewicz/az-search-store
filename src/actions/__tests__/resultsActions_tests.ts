@@ -1,4 +1,4 @@
-import * as resultsActions from '../resultsActions';
+import resultsActions from '../resultsActions';
 
 const ts = Date.now();
 
