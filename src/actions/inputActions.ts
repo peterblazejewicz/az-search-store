@@ -1,12 +1,11 @@
-import { Store } from "../store";
+import { Store } from '../store';
 
-export type InputAction =
-    {
-        type: "SET_INPUT"
-        input: string
-    };
+export type InputAction = {
+  type: 'SET_INPUT';
+  input: string;
+};
 
 export const setInput = (input: string): InputAction => ({
-    type: "SET_INPUT",
-    input
+  type: 'SET_INPUT',
+  input,
 });
